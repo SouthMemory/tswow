@@ -16,8 +16,10 @@
  */
 import { CharacterCreationUI } from "./CharacterCreation";
 import { GlueStrings } from "./GlueStrings";
+import { GlobalStrings } from "./GlobalStrings";
 
 export const UI = {
     CharacterCreation : new CharacterCreationUI(),
-    GlueStrings: new GlueStrings()
+    GlueStrings: new GlueStrings(),
+    GlobalStrings: new GlobalStrings(),
 }
